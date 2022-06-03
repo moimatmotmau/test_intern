@@ -1,8 +1,5 @@
 const arr = ["one","two","three","four",'five']
 
-const groupByLength = ( arr)=>{
-    return {
-        ...arr
-    }
+const groupByLength = (arr)=>{
+   
 }
-console.log(groupByLength(arr)) 

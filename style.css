@@ -14,7 +14,8 @@ html{
     font-size: 62.5%;
 }
 .container-wrap{
-    overflow: hidden;
+    overflow-x: hidden;
+    height: 100vh;
 }
 .container{
     display: flex;
@@ -79,6 +80,7 @@ html{
     display:grid;
     grid-template-columns: auto auto auto;
     padding-bottom: 50px;
+    column-gap: 24px;
 
 }
 .describe-title{
@@ -107,5 +109,9 @@ html{
     .content-detals{
         grid-template-columns: auto;
         margin: 0 15px;
+        column-gap: 12px;
+    }
+    .describe-title{
+        text-align: center;
     }
 }
